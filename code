@@ -1,0 +1,7 @@
+job('chield job')
+{
+  scm
+  {
+    github(String ownerAndProject='harneetsingh11/jen-demo.git', String branch='main')
+  }
+}
